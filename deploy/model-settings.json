@@ -1,0 +1,10 @@
+{
+"name": "xgboost-model",
+"implementation": "mlserver_sklearn.sklearn.SKLearnModel",
+"parameters": {
+    "uri": "./model.joblib",
+    "version": "v1"
+},
+"max_batch_size": 50,
+"max_batch_time": 10
+}
