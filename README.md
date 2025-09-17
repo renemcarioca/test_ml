@@ -1,7 +1,7 @@
 # Teste de conhecimentos - ML Engineer
 Respositório público de código para o teste de conhecimentos da vaga de Engenheiro(a) de Machine Learning.
 
-## Problema escolhido escolhido: Santander Customer Transaction Prediction
+## Problema escolhido: Santander Customer Transaction Prediction
 Classificação binária com 200 atributos anonimizados de transações e 200000 entradas. O data card no Kaggle mostra que há um desbalanço nas labels e que todos os atributos são numéricos distribuídos normalmente, também verifiquei em código que não há dados faltantes. Apenas o arquivo `train.csv` foi usado para treinamento e avaliação iniciais porque o arquivo `test.csv` não contém a variável alvo. A partir do arquivo `train.csv` os conjuntos de treino e teste foram criados de um corte 80/20 aleatório estratificado de forma que ambos tenham uma mesma proporção de labels positivas e negativas próxima da original.
 
 ## Ambiente
